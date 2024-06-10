@@ -3,6 +3,28 @@
 	margin-top:48px;
 	
 }
+@media (max-width: 768px) {
+    .home-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .socialcon {
+        flex-direction: column;
+    }
+
+    .social-icons {
+        margin: 10px 0;
+    }
+
+    .home-img img {
+        width: 80%;
+        height: auto;
+    }
+}
 .childnav1{
 	
 margin-top: 20vh;
